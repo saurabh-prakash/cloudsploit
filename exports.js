@@ -1079,4 +1079,3 @@ module.exports = {
         'securityNotificationsEnabled'  : require(__dirname + '/plugins/alibaba/securitycenter/securityNotificationsEnabled.js')
     }
 };
-
