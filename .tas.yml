@@ -12,5 +12,4 @@ postMerge:
 postRun:
   command:
     - node --version
-tier: medium
-version: 1.1
+version: 1.0
