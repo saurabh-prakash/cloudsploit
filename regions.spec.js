@@ -8,6 +8,7 @@ describe('AWS Regions', function() {
         Object.keys(regRegions).forEach(function(regRegion){
             expect(govRegions[regRegion], `AWS Region: ${regRegion} is not present in GovCloud region list`).to.be.an('array');
             expect(chinaRegions[regRegion], `AWS Region: ${regRegion} is not present in China region list`).to.be.an('array');
+            expect(1).to.equal(2);
         });
     });
 });
