@@ -2,6 +2,7 @@ framework: mocha
 preRun:
   command:
     - npm install
+    - npm run lint
 preMerge:
   pattern:
     - "./**/*.spec.js"
