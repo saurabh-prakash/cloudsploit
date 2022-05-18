@@ -1,6 +1,4 @@
 framework: mocha
-blocklist:
-  - regions.spec.js##AWS Regions##should have same regions for AWS, China, and GovCloud##
 preRun:
   command:
     - npm install
