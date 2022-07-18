@@ -1,6 +1,6 @@
 framework: mocha
 blocklist:
-  - exports.spec.js##exports##should use the proper format for each test
+  - exports.spec.js##exports
 preRun:
   command:
     - npm install
